@@ -97,21 +97,3 @@ class LinkedList {
         return elements
     }
 }
-
-const linkedlist = new LinkedList()
-
-linkedlist.append('aaa')
-linkedlist.append(12)
-linkedlist.append(true)
-linkedlist.append(123.5)
-linkedlist.append('bbb')
-linkedlist.prepend('ccc')
-
-
-console.log(linkedlist.toArray())
-
-console.log(linkedlist.find('ccc'))
-
-linkedlist.insertAfter('ddd', 'bbb')
-
-console.log(linkedlist.toArray())
